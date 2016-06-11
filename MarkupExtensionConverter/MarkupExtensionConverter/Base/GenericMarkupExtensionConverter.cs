@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Globalization;
-using MarkupExtensionConverter.Extensions;
+using Extensions;
 
 namespace MarkupExtensionConverter.Base
 {

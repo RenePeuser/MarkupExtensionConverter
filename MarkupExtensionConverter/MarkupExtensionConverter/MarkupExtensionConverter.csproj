@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Extensions">
+      <HintPath>..\ExternalLibs\Extensions\Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -56,15 +59,12 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Base\BindingBase.cs" />
-    <Compile Include="Extensions\ArrayExtensions.cs" />
     <Compile Include="Base\GenericMarkupExtensionConverter.cs" />
     <Compile Include="Base\GenericMarkupExtensionConverterOneWay.cs" />
-    <Compile Include="Extensions\GenericTypeExtensions.cs" />
     <Compile Include="Base\MarkupExtensionConverter.cs" />
     <Compile Include="Base\MarkupExtensionConverterOneWay.cs" />
     <Compile Include="Base\MarkupExtensionMultiValueConverter.cs" />
     <Compile Include="Base\MarkupExtensionMultiValueConverterOneWay.cs" />
-    <Compile Include="Extensions\ObjectExtensions.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
